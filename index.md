@@ -4,6 +4,6 @@ Here we store our demo apps to test our wopee bot.
 
 ## Demos
 
-- [FlexStart](/FlexStart)
+- [FlexStart](FlexStart)
 
-- [SmallApps](/SmallApps)
+- [SmallApps](SmallApps)
