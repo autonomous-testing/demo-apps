@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 1280px;
+  background-color: #e6e4e7;
+  background-image: url("bg.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #313236;
+  border-radius: 30px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #aaa;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+#login {
+  background-color: #313236;
+  color: #e6e4e7;
+  padding: 30px;
+  width: 60%;
+  display: inline-block;
+}
+
+img {
+  border: solid 1px;
+  border-color: grey;
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
