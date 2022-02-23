@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: github-pages
     steps:
+      - uses: actions/deploy-pages@v1
+
       - name: deploy
         run: |
           echo "ahaaa"
