@@ -18,14 +18,13 @@ jobs:
 
       - name: Introduce css bug
         run: |
-          ls Dronjo
           rm Dronjo/style.css
 
-  deployment:
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
-    environment:
-      name: dev
+    environment: github-pages
     steps:
       - name: deploy
-        run: echo "ahaaa"
-        # ...deployment-specific steps
+        run: |
+          echo "ahaaa"
