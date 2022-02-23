@@ -18,4 +18,5 @@ jobs:
 
       - name: Introduce css bug
         run: |
+          ls .
           rm demos/Dronjo/style.css
