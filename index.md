@@ -9,4 +9,3 @@ Here we store our demo apps to test our wopee bot.
 - [DemoApp](DemoApp)
 - [Credit Card Check Out](CCCheckOut)
 - [Credit Card Check Out 2](CCCheckOut2)
-- [Dronjo](Dronjo)
